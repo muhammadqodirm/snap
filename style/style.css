@@ -1,0 +1,147 @@
+/* epilogue-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/epilogue-v17-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* epilogue-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/epilogue-v17-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1440px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #686868;
+  transition: all 0.5s;
+}
+
+a:hover {
+  color: #151515;
+}
+
+li {
+  list-style: none;
+}
+
+.header__container ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header__container .hero {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.header__container .hero img {
+  margin-top: 8px;
+}
+.header__container .button {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.user-card__login {
+  border: none;
+  background: fixed;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+.user-card__register {
+  border: 1px solid #686868;
+  background: fixed;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 60px;
+}
+.main__container .title h1 {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+}
+
+.main__container .title p {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #686868;
+}
+
+.main__container .title button {
+  width: 163px;
+  height: 56px;
+  background: #151515;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fafafa;
+  margin-top: 20px;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.main__container .title button:hover {
+  background: fixed;
+  color: #151515;
+  border: 1px solid #151515;
+}
+
+.image__one {
+  display: flex;
+  align-items: center;
+  padding-top: 70px;
+  gap: 50px;
+}
